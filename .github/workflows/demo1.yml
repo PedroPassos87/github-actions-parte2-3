@@ -7,8 +7,8 @@ on:
     branches: 
       - main 
       - 'dev-*'      
-    paths-ignore: 
-      - '.github/workflows/*'
+    paths: 
+      - '.github/workflows/demo1.yml'
 jobs:
   deploy:
     runs-on: ubuntu-latest
